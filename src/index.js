@@ -6,7 +6,7 @@ var PORT = 8080;
 // App
 var app = express();
 app.get('/', function (req, res) {
-  res.send('Hello world, I am on docker!\n And I am build with Jenkins!');
+  res.send('Hello world, I am on docker!');
 });
 
 app.listen(PORT);
